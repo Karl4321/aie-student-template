@@ -104,7 +104,6 @@ uv run uvicorn eda_cli.api:app --host 0.0.0.0 --port 8000 --reload
 
 Автоматическая документация API доступна по адресам:
 - Swagger UI: `http://localhost:8000/docs`
-- ReDoc: `http://localhost:8000/redoc`
 
 ### Доступные эндпоинты:
 
