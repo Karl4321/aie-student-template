@@ -1,0 +1,32 @@
+{
+  "dataset1": {
+    "method": "KMeans",
+    "params": {
+      "n_clusters": 2
+    },
+    "criterion": "Наивысший silhouette score (0.52) и хорошее разделение по другим метрикам",
+    "silhouette": 0.5216395622404242,
+    "davies_bouldin": 0.6853295219054459
+  },
+  "dataset2": {
+    "method": "DBSCAN",
+    "params": {
+      "eps": 0.75,
+      "min_samples": 14
+    },
+    "criterion": "Лучший silhouette score и низкий Davies-Bouldin, устойчивость к шуму и нелинейной структуре",
+    "silhouette": 0.5520096324146319,
+    "davies_bouldin": 0.4571145501497867,
+    "calinski_harabasz": 124.35196824489917
+  },
+  "dataset3": {
+    "method": "KMeans",
+    "params": {
+      "n_clusters": 3
+    },
+    "criterion": "Наивысший silhouette score (0.315) и хорошее разделение по другим метрикам",
+    "silhouette": 0.31554470037825183,
+    "davies_bouldin": 1.1577256320598661,
+    "calinski_harabasz": 6957.162639510166
+  }
+}
