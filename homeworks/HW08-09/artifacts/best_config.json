@@ -1,0 +1,26 @@
+{
+  "experiment_id": "E4",
+  "dataset": "EMNIST Balanced",
+  "seed": 42,
+  "architecture": {
+    "input_size": 784,
+    "hidden_layers": [1024, 512, 256, 128, 64],
+    "num_classes": 47,
+    "activation": "relu",
+    "dropout": 0.3,
+    "batch_norm": false
+  },
+  "training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.0001,
+    "weight_decay": 0,
+    "batch_size": 64,
+    "early_stopping": {
+      "patience": 5,
+      "min_delta": 0
+    },
+    "epochs_trained": 44,
+    "best_val_loss": 0.4516,
+    "best_val_accuracy": 0.8596
+  }
+}

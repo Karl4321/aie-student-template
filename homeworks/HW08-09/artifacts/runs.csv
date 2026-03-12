@@ -1,0 +1,8 @@
+experiment_id, dataset, seed, model_summary                                               , optimizer, lr     , momentum, weight_decay, epochs_trained, best_val_accuracy, best_val_loss
+E1           , EMNIST ,   42, "1024,512,256,128,64 / relu / dropout=0 / batchnorm=False"  , Adam     , 0.001  ,         ,       0     ,             20,            0.8343,        0.5380
+E2           , EMNIST ,   42, "1024,512,256,128,64 / relu / dropout=0.3 / batchnorm=False", Adam     , 0.001  ,         ,       0     ,             50,            0.8615,        0.4564
+E3           , EMNIST ,   42, "1024,512,256,128,64 / relu / dropout=0 / batchnorm=True"   , Adam     , 0.001  ,         ,       0     ,             30,            0.8294,        0.8313
+E4           , EMNIST ,   42, "1024,512,256,128,64 / relu / dropout=0.3 / batchnorm=False", Adam     , 0.001  ,         ,       0     ,             44,            0.8596,        0.4516
+O1           , EMNIST ,   42, "1024,512,256,128,64 / relu / dropout=0.3 / batchnorm=False", Adam     , 0.1    ,         ,       0     ,              6,            0.0210,        3.8746
+O2           , EMNIST ,   42, "1024,512,256,128,64 / relu / dropout=0.3 / batchnorm=False", Adam     , 0.00001,         ,       0     ,              6,            0.4549,        2.1493
+O3           , EMNIST ,   42, "1024,512,256,128,64 / relu / dropout=0.3 / batchnorm=False", SGD      , 0.001  ,      0.9,       0.0001,             15,            0.7520,        0.7824
