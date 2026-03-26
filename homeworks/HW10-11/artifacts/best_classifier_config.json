@@ -1,0 +1,19 @@
+{
+  "dataset": "CIFAR100",
+  "seed": 42,
+  "architecture": "ResNet18",
+  "augmentations": false,
+  "pretrained": true,
+  "fine_tune_strategy": "layer4+fc",
+  "transforms": {
+    "train": "resize_transform (Resize 224, ToTensor, ImageNet Normalize)",
+    "val": "resize_transform (Resize 224, ToTensor, ImageNet Normalize)",
+    "test": "resize_transform (Resize 224, ToTensor, ImageNet Normalize)"
+  },
+  "hyperparameters": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "num_epochs": 20
+  }
+}
