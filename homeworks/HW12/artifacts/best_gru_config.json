@@ -1,0 +1,11 @@
+{
+  "input_size": 1,
+  "hidden_size": 32,
+  "num_layers": 1,
+  "window_size": 30,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "seed": 42,
+  "scaler_mean": 128.20576058201058,
+  "scaler_scale": 18.48154222978581
+}
