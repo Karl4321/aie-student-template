@@ -1,5 +1,5 @@
 experiment_id,task,dataset,seed,split_summary,window_size,horizon,model_summary,features_summary,scaler,optimizer,lr,epochs_trained,best_val_mae,best_val_rmse,best_val_mape,test_mae,test_rmse,test_mape,notes
-B1,forecasting,S12-hw-dataset,42,"train:70%, val:15%, test:15%",,1,B1,"lag1,lag7,lag14,rolling7,dayofweek",,,,,6.461261829652997,8.241294154290298,4.408359084277091,,,,
-B2,forecasting,S12-hw-dataset,42,"train:70%, val:15%, test:15%",,1,B2,"lag1,lag7,lag14,rolling7,dayofweek",,,,,12.731874718341597,15.272014284473306,8.839993750384947,,,,
-B3,forecasting,S12-hw-dataset,42,"train:70%, val:15%, test:15%",,1,B3,"lag1,lag7,lag14,rolling7,dayofweek",StandardScaler,,,,7.307523759694704,8.859561484264397,4.874026639480846,,,,
-R1,forecasting,S12-hw-dataset,42,"train:70%, val:15%, test:15%",30.0,1,R1,window30,MinMaxScaler,Adam,0.001,50.0,5.132482051849365,6.684200150109848,3.4563469886779785,5.895598888397217,7.532445788917984,3.7931175231933594,
+B1,forecasting,S12-hw-dataset,42,"train:70%, val:15%, test:15%",,1,B1 (naive),"lag1,lag7,lag14,rolling7,dayofweek",,,,,6.461261829652997,8.241294154290298,4.408359084277091,,,,
+B2,forecasting,S12-hw-dataset,42,"train:70%, val:15%, test:15%",,1,B2 (moving_avg),"lag1,lag7,lag14,rolling7,dayofweek",,,,,12.731874718341597,15.272014284473306,8.839993750384947,,,,
+B3,forecasting,S12-hw-dataset,42,"train:70%, val:15%, test:15%",,1,B3 (ridge),"lag1,lag7,lag14,rolling7,dayofweek",StandardScaler,,,,7.307523759694704,8.859561484264397,4.874026639480846,,,,
+R1,forecasting,S12-hw-dataset,42,"train:70%, val:15%, test:15%",30.0,1,"GRU(hidden=48,layers=2,dropout=0.2)",window30,MinMaxScaler,Adam,0.001,50.0,5.054812908172607,6.570416425865057,3.4277126789093018,5.726444244384766,7.328061752209069,3.7395107746124268,
