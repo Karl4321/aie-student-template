@@ -1,0 +1,11 @@
+query,before_retrieved_sources,after_retrieved_sources,changed
+Кто такой Савельич?,"pushkin_1, pushkin_7, pushkin_13","pushkin_1, pushkin_7, pushkin_13",False
+Что случилось с Базаровым?,"turgenev_28, pushkin_8, turgenev_27","turgenev_28, pushkin_8, turgenev_27",False
+Главная тема романа Отцы и дети,"pushkin_10, turgenev_4, turgenev_1","pushkin_new2, pushkin_10, turgenev_4",True
+Как Петр Гринев попал в армию?,"turgenev_24, pushkin_14, turgenev_1","turgenev_24, pushkin_14, turgenev_1",False
+Кто такая Марья Ивановна?,"pushkin_12, pushkin_8, pushkin_14","pushkin_12, pushkin_8, pushkin_14",False
+Как Аркадий познакомился с Базаровым?,"turgenev_9, turgenev_14, turgenev_21","turgenev_9, turgenev_14, turgenev_21",False
+Что произошло на дуэли?,"turgenev_22, pushkin_7, turgenev_21","turgenev_22, pushkin_7, turgenev_21",False
+Как погиб Пугачев?,"pushkin_14, pushkin_12, pushkin_11","pushkin_14, pushkin_12, pushkin_11",False
+Кто был отцом Аркадия?,"turgenev_4, turgenev_14, turgenev_7","turgenev_new1, turgenev_4, turgenev_14",True
+Как закончилась история Гринева?,"pushkin_14, pushkin_14, turgenev_24","pushkin_14, pushkin_14, turgenev_24",False
