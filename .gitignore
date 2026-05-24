@@ -56,3 +56,6 @@ logs/
 *.tmp
 *.bak
 *.old
+
+project/artifacts/embeddings.npy
+project/artifacts/faiss_index.index
