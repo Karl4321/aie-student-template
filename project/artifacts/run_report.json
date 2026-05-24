@@ -1,0 +1,8 @@
+{
+    "timestamp": "2026-05-04T18:23:13.006298",
+    "num_embeddings": 44096,
+    "embedding_dim": 2048,
+    "index_size": 44096,
+    "model": "resnet50",
+    "device": "cuda"
+}

@@ -1,0 +1,16 @@
+torch
+torchvision
+faiss-cpu          # или faiss-gpu для GPU-поиска
+pyyaml
+pillow
+tqdm
+albumentations
+pandas
+numpy
+matplotlib
+gdown
+fastapi
+uvicorn
+python-multipart
+# Для CLIP (опционально):
+# git+https://github.com/openai/CLIP.git

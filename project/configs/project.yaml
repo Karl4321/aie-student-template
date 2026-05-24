@@ -1,0 +1,19 @@
+# project/configs/project.yaml
+
+paths:
+  images_dir: "data\\dataset\\images" 
+  artifacts_dir: "artifacts" 
+
+model:
+  name: "resnet50" 
+  checkpoint_path: null 
+  device: "cuda" 
+
+inference:
+  batch_size: 64
+  top_k: 5
+
+index:
+  type: "Flat"
+  nlist: 500
+  nprobe: 5
